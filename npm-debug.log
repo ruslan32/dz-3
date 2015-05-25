@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   'jQueryFormStyler' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json @ No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'jQueryFormStyler', null ]
+8 verbose cache add name=undefined spec="jQueryFormStyler" args=["jQueryFormStyler",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'jQueryFormStyler',
+9 verbose parsed url   path: 'jQueryFormStyler',
+9 verbose parsed url   href: 'jQueryFormStyler' }
+10 silly lockFile 4e534870-jQueryFormStyler jQueryFormStyler
+11 verbose lock jQueryFormStyler C:\Users\rus\AppData\Roaming\npm-cache\4e534870-jQueryFormStyler.lock
+12 silly lockFile 4e534870-jQueryFormStyler jQueryFormStyler
+13 silly lockFile 4e534870-jQueryFormStyler jQueryFormStyler
+14 verbose addNamed [ 'jQueryFormStyler', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 7aaf7287-jQueryFormStyler jQueryFormStyler@
+17 verbose lock jQueryFormStyler@ C:\Users\rus\AppData\Roaming\npm-cache\7aaf7287-jQueryFormStyler.lock
+18 silly addNameRange { name: 'jQueryFormStyler', range: '*', hasData: false }
+19 verbose request where is /jQueryFormStyler
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 97423d4902a9d7dc
+22 verbose url raw /jQueryFormStyler
+23 verbose url resolving [ 'https://registry.npmjs.org/', './jQueryFormStyler' ]
+24 verbose url resolved https://registry.npmjs.org/jQueryFormStyler
+25 verbose request where is https://registry.npmjs.org/jQueryFormStyler
+26 info trying registry request attempt 1 at 11:20:30
+27 http GET https://registry.npmjs.org/jQueryFormStyler
+28 http 404 https://registry.npmjs.org/jQueryFormStyler
+29 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '51',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Thu, 21 May 2015 06:20:37 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-fra1235-FRA',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1432189237.417552,VS0,VE436' }
+30 silly registry.get cb [ 404,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '51',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Thu, 21 May 2015 06:20:37 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1432189237.417552,VS0,VE436' } ]
+31 silly lockFile 7aaf7287-jQueryFormStyler jQueryFormStyler@
+32 silly lockFile 7aaf7287-jQueryFormStyler jQueryFormStyler@
+33 error 404 404 Not Found: jQueryFormStyler
+33 error 404
+33 error 404 'jQueryFormStyler' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Windows_NT 6.1.7601
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save" "jQueryFormStyler"
+36 error cwd C:\Users\rus\Documents\projects\dz-2
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]

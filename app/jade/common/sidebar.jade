@@ -1,0 +1,45 @@
+.sidebar
+   .sidebar__title Настройки
+   .fileinputs
+      .fileinputs__fake-file
+         input(type="file" class="fileinputs__file")
+         .fake-file
+            .fake-file__text Исходное изображение
+            input(class="fake-file__upload" id="jpg" type="text" placeholder="Image jpg" size="25")
+            img(class="upload__pic" src="img/upload.png")
+      div(class="fileinputs__fake-file")
+         input(type="file" class="fileinputs__file")
+         .fake-file
+            .fake-file__text Водяной знак
+            input(class="fake-file__upload" type="text" placeholder="Image png" size="25")
+            img(class="upload__pic" src="img/upload.png")
+   .position
+      .position__title Положение
+      .position__positioning
+         .positioning
+            ul(class="positioning__list")
+               - for (var x = 0; x < 9; x++)
+                  li(class="list__item")
+         .position__counter
+            .counter__one
+               .counter__x x
+               .counter__window 0
+               .counter__management
+                  .management__up
+                     .icon-up-open-big
+                  .management__down
+                     .icon-down-open-big
+            .counter__one
+               .counter__x y
+               .counter__window 0
+               .counter__management
+                  .management__up
+                     .icon-up-open-big
+                  .management__down
+                     .icon-down-open-big
+   .transparency
+      .transparency__tiitle Прозрачность
+      .slider
+   .management
+      button(type="reset" class="reset") сброс
+      button(type="submit" class="send") скачать
